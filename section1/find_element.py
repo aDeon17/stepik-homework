@@ -9,7 +9,7 @@ try:
     browser.get(link)
     element = browser.find_element_by_link_text(str(math.ceil(math.pow(math.pi, math.e) * 10000)))
     element.click()
-    input1 = browser.find_element_by_tag_name("input")
+    input1 = browser.find_element_by_tag_name("iinput")
     input1.send_keys("Ivan")
     input2 = browser.find_element_by_name("last_name")
     input2.send_keys("Petrov")
